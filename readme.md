@@ -20,3 +20,7 @@ There are 3 types of users in the system - the league admin, a coach, and a play
 
 # API documentation in api/html folder
   (doxygen auto generated)
+
+# Base
+- Python 3.10.0
+- Django 4.2.7
