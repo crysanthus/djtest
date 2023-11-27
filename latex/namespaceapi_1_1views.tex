@@ -1,0 +1,86 @@
+\doxysection{api.\+views Namespace Reference}
+\hypertarget{namespaceapi_1_1views}{}\label{namespaceapi_1_1views}\index{api.views@{api.views}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views_aaf00a89f257c08161bfbbdedc7694a2e}{index}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views_a790c167de9ce7796a8fe92ccb5090079}{login}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views_ac06cf6975163f639d83818026b3dbb59}{logout}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views_a9de614d087ed972d4159dad16ffc1706}{signup}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views_a6e401b62eb6360f4764b0233f1ae503c}{test\+\_\+token}} (request)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapi_1_1views_aaf00a89f257c08161bfbbdedc7694a2e}\label{namespaceapi_1_1views_aaf00a89f257c08161bfbbdedc7694a2e} 
+\index{api.views@{api.views}!index@{index}}
+\index{index@{index}!api.views@{api.views}}
+\doxysubsubsection{\texorpdfstring{index()}{index()}}
+{\footnotesize\ttfamily index (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    A view function for the index page of the API.
+
+    Parameters:
+        - request: The HTTP request object.
+
+    Returns:
+        - Response: The HTTP response containing a list of API endpoints.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views_a790c167de9ce7796a8fe92ccb5090079}\label{namespaceapi_1_1views_a790c167de9ce7796a8fe92ccb5090079} 
+\index{api.views@{api.views}!login@{login}}
+\index{login@{login}!api.views@{api.views}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily login (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Handles the login functionality.
+
+    Parameters:
+    - request: The HTTP request object.
+
+    Returns:
+    - HttpResponse: The HTTP response containing the token and user details if the login is successful, 
+      otherwise an HTTP response with an error message and status code 401.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views_ac06cf6975163f639d83818026b3dbb59}\label{namespaceapi_1_1views_ac06cf6975163f639d83818026b3dbb59} 
+\index{api.views@{api.views}!logout@{logout}}
+\index{logout@{logout}!api.views@{api.views}}
+\doxysubsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily logout (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Handles the logout functionality.
+
+    Parameters:
+    - request: The HTTP request object.
+
+    Returns:
+    - HttpResponse: The HTTP response containing a success message and status code 200.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views_a9de614d087ed972d4159dad16ffc1706}\label{namespaceapi_1_1views_a9de614d087ed972d4159dad16ffc1706} 
+\index{api.views@{api.views}!signup@{signup}}
+\index{signup@{signup}!api.views@{api.views}}
+\doxysubsubsection{\texorpdfstring{signup()}{signup()}}
+{\footnotesize\ttfamily signup (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Handle the signup request.
+
+    Parameters:
+    - request: The HTTP request object containing the signup data.
+
+    Return:
+    - If the signup data is valid, return a response with the user token and data (status code 201).
+    - If the signup data is invalid, return a response with the validation errors (status code 400).\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views_a6e401b62eb6360f4764b0233f1ae503c}\label{namespaceapi_1_1views_a6e401b62eb6360f4764b0233f1ae503c} 
+\index{api.views@{api.views}!test\_token@{test\_token}}
+\index{test\_token@{test\_token}!api.views@{api.views}}
+\doxysubsubsection{\texorpdfstring{test\_token()}{test\_token()}}
+{\footnotesize\ttfamily test\+\_\+token (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Handles the login request.
+
+    Parameters:
+    - request: The HTTP request object.
+
+    Returns:
+    - HttpResponse: The response containing the message 'Login successful' with a status code of 200.\end{DoxyVerb}
+ 

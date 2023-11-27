@@ -1,0 +1,89 @@
+\doxysection{api.\+views\+\_\+team Namespace Reference}
+\hypertarget{namespaceapi_1_1views__team}{}\label{namespaceapi_1_1views__team}\index{api.views\_team@{api.views\_team}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__team_a9b6401510633b192b56573b2b7d3d51a}{create\+\_\+team}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__team_a1718e42a461660a116c0d4b7daa40ea6}{delete\+\_\+team}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__team_a40ca9c472b620d88cdac533f66e7775d}{get\+\_\+team}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__team_a8e08b8eab04ba5dc41dcc33eb774688e}{list\+\_\+teams}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__team_a8d81ef12c8fdbd248aba32393983ed40}{update\+\_\+team}} (request, pk)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapi_1_1views__team_a9b6401510633b192b56573b2b7d3d51a}\label{namespaceapi_1_1views__team_a9b6401510633b192b56573b2b7d3d51a} 
+\index{api.views\_team@{api.views\_team}!create\_team@{create\_team}}
+\index{create\_team@{create\_team}!api.views\_team@{api.views\_team}}
+\doxysubsubsection{\texorpdfstring{create\_team()}{create\_team()}}
+{\footnotesize\ttfamily create\+\_\+team (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Creates a new team.
+
+    Parameters:
+        - request: The HTTP request object containing the team data.
+
+    Returns:
+        - Response: The HTTP response object containing the serialized team data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__team_a1718e42a461660a116c0d4b7daa40ea6}\label{namespaceapi_1_1views__team_a1718e42a461660a116c0d4b7daa40ea6} 
+\index{api.views\_team@{api.views\_team}!delete\_team@{delete\_team}}
+\index{delete\_team@{delete\_team}!api.views\_team@{api.views\_team}}
+\doxysubsubsection{\texorpdfstring{delete\_team()}{delete\_team()}}
+{\footnotesize\ttfamily delete\+\_\+team (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Deletes a team.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the team to delete.
+
+    Returns:
+        - Response: The HTTP response object containing a success message.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__team_a40ca9c472b620d88cdac533f66e7775d}\label{namespaceapi_1_1views__team_a40ca9c472b620d88cdac533f66e7775d} 
+\index{api.views\_team@{api.views\_team}!get\_team@{get\_team}}
+\index{get\_team@{get\_team}!api.views\_team@{api.views\_team}}
+\doxysubsubsection{\texorpdfstring{get\_team()}{get\_team()}}
+{\footnotesize\ttfamily get\+\_\+team (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Get a specific team by its primary key.
+    
+    :param request: The HTTP request object.
+    :param pk: The primary key of the team.
+    :type pk: int
+    :return: A JSON response containing the serialized team data.
+    :returns type: JsonResponse\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__team_a8e08b8eab04ba5dc41dcc33eb774688e}\label{namespaceapi_1_1views__team_a8e08b8eab04ba5dc41dcc33eb774688e} 
+\index{api.views\_team@{api.views\_team}!list\_teams@{list\_teams}}
+\index{list\_teams@{list\_teams}!api.views\_team@{api.views\_team}}
+\doxysubsubsection{\texorpdfstring{list\_teams()}{list\_teams()}}
+{\footnotesize\ttfamily list\+\_\+teams (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Lists all the teams.
+
+    Parameters:
+    - request: The request object.
+
+    Returns:
+    A JsonResponse containing the list of teams serialized as JSON.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__team_a8d81ef12c8fdbd248aba32393983ed40}\label{namespaceapi_1_1views__team_a8d81ef12c8fdbd248aba32393983ed40} 
+\index{api.views\_team@{api.views\_team}!update\_team@{update\_team}}
+\index{update\_team@{update\_team}!api.views\_team@{api.views\_team}}
+\doxysubsubsection{\texorpdfstring{update\_team()}{update\_team()}}
+{\footnotesize\ttfamily update\+\_\+team (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Updates a team.
+
+    Parameters:
+        - request: The HTTP request object containing the updated team data.
+        - pk: The primary key of the team to update.
+
+    Returns:
+        - Response: The HTTP response object containing the serialized team data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ 

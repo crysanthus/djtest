@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['admin_2epy_0',['admin.py',['../admin_8py.html',1,'']]],
+  ['age_1',['age',['../classapi_1_1models_1_1_player.html#a043a7693e1d2d30988a0f821e0ab5f94',1,'api::models::Player']]],
+  ['allowed_5fhosts_2',['ALLOWED_HOSTS',['../namespaceapi_1_1settings.html#a1c65930ce3d00aea720781bc9c17b0b8',1,'api::settings']]],
+  ['api_3',['api',['../namespaceapi.html',1,'']]],
+  ['api_3a_3aadmin_4',['admin',['../namespaceapi_1_1admin.html',1,'api']]],
+  ['api_3a_3aasgi_5',['asgi',['../namespaceapi_1_1asgi.html',1,'api']]],
+  ['api_3a_3amodels_6',['models',['../namespaceapi_1_1models.html',1,'api']]],
+  ['api_3a_3aserializers_7',['serializers',['../namespaceapi_1_1serializers.html',1,'api']]],
+  ['api_3a_3asettings_8',['settings',['../namespaceapi_1_1settings.html',1,'api']]],
+  ['api_3a_3aurls_9',['urls',['../namespaceapi_1_1urls.html',1,'api']]],
+  ['api_3a_3aviews_10',['views',['../namespaceapi_1_1views.html',1,'api']]],
+  ['api_3a_3aviews_5fgame_11',['views_game',['../namespaceapi_1_1views__game.html',1,'api']]],
+  ['api_3a_3aviews_5fleague_12',['views_league',['../namespaceapi_1_1views__league.html',1,'api']]],
+  ['api_3a_3aviews_5fmatch_13',['views_match',['../namespaceapi_1_1views__match.html',1,'api']]],
+  ['api_3a_3aviews_5fplayer_14',['views_player',['../namespaceapi_1_1views__player.html',1,'api']]],
+  ['api_3a_3aviews_5fstats_15',['views_stats',['../namespaceapi_1_1views__stats.html',1,'api']]],
+  ['api_3a_3aviews_5fteam_16',['views_team',['../namespaceapi_1_1views__team.html',1,'api']]],
+  ['api_3a_3awsgi_17',['wsgi',['../namespaceapi_1_1wsgi.html',1,'api']]],
+  ['application_18',['application',['../namespaceapi_1_1wsgi.html#a9556574144704032c9e6bafa10276622',1,'api.wsgi.application'],['../namespaceapi_1_1asgi.html#a9556574144704032c9e6bafa10276622',1,'api.asgi.application']]],
+  ['asgi_2epy_19',['asgi.py',['../asgi_8py.html',1,'']]],
+  ['auth_5fpassword_5fvalidators_20',['AUTH_PASSWORD_VALIDATORS',['../namespaceapi_1_1settings.html#adfde5213ef848d455082a227c9925e22',1,'api::settings']]],
+  ['average_5fscore_21',['average_score',['../classapi_1_1models_1_1_player.html#a82c54033abd9fa17a33d8ab535ea61b2',1,'api::models::Player']]],
+  ['away_5fscore_22',['away_score',['../classapi_1_1models_1_1_game.html#aeba0e67d98ca9f404279baa65d8c40c6',1,'api::models::Game']]],
+  ['away_5fteam_23',['away_team',['../classapi_1_1models_1_1_game.html#aede273c517772899ff52d625fed1bf10',1,'api::models::Game']]]
+];

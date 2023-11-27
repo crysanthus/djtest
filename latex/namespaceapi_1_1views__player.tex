@@ -1,0 +1,150 @@
+\doxysection{api.\+views\+\_\+player Namespace Reference}
+\hypertarget{namespaceapi_1_1views__player}{}\label{namespaceapi_1_1views__player}\index{api.views\_player@{api.views\_player}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a42ef9f7e555c32272f53914556e5cdfa}{calculate\+\_\+xth\+\_\+percentile}} (players, percentile)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a6c089df38e6947e342a5369a4bcc855f}{create\+\_\+player}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a4b1806ee8a74594e0ea778a2837fac8b}{delete\+\_\+player}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a5583dea81b3ef085d20ec194a460871b}{filter\+\_\+players\+\_\+above\+\_\+xth\+\_\+percentile}} (players, percentile=90)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a7b7c420d5febd44354e474d9db641c64}{get\+\_\+player}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_ab5226d8f1203c8c471c2b732c4e25074}{list\+\_\+players}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a91323f140c51ffb9f5ddf10c038d12c5}{search\+\_\+player}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a525dbdb656de09e3b11b78e11c1436b8}{search\+\_\+player\+\_\+by\+\_\+average\+\_\+score}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_a4c2e375856e5b508af89cadf17c90cd1}{search\+\_\+player\+\_\+by\+\_\+team}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__player_aba7c58a418867e12325489489085d55d}{update\+\_\+player}} (request, pk)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapi_1_1views__player_a42ef9f7e555c32272f53914556e5cdfa}\label{namespaceapi_1_1views__player_a42ef9f7e555c32272f53914556e5cdfa} 
+\index{api.views\_player@{api.views\_player}!calculate\_xth\_percentile@{calculate\_xth\_percentile}}
+\index{calculate\_xth\_percentile@{calculate\_xth\_percentile}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{calculate\_xth\_percentile()}{calculate\_xth\_percentile()}}
+{\footnotesize\ttfamily calculate\+\_\+xth\+\_\+percentile (\begin{DoxyParamCaption}\item[{}]{players,  }\item[{}]{percentile }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Calculates the xth percentile of a list of numbers.
+    TODO: check percentile value\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_a6c089df38e6947e342a5369a4bcc855f}\label{namespaceapi_1_1views__player_a6c089df38e6947e342a5369a4bcc855f} 
+\index{api.views\_player@{api.views\_player}!create\_player@{create\_player}}
+\index{create\_player@{create\_player}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{create\_player()}{create\_player()}}
+{\footnotesize\ttfamily create\+\_\+player (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Adds a new player to the database.
+
+    Parameters:
+        - request: The HTTP request object containing the player data.
+    Returns:
+        - Response: The HTTP response object containing the serialized player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_a4b1806ee8a74594e0ea778a2837fac8b}\label{namespaceapi_1_1views__player_a4b1806ee8a74594e0ea778a2837fac8b} 
+\index{api.views\_player@{api.views\_player}!delete\_player@{delete\_player}}
+\index{delete\_player@{delete\_player}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{delete\_player()}{delete\_player()}}
+{\footnotesize\ttfamily delete\+\_\+player (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Deletes an existing player from the database.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the player to be deleted.
+    Returns:
+        - Response: The HTTP response object containing a success message.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_a5583dea81b3ef085d20ec194a460871b}\label{namespaceapi_1_1views__player_a5583dea81b3ef085d20ec194a460871b} 
+\index{api.views\_player@{api.views\_player}!filter\_players\_above\_xth\_percentile@{filter\_players\_above\_xth\_percentile}}
+\index{filter\_players\_above\_xth\_percentile@{filter\_players\_above\_xth\_percentile}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{filter\_players\_above\_xth\_percentile()}{filter\_players\_above\_xth\_percentile()}}
+{\footnotesize\ttfamily filter\+\_\+players\+\_\+above\+\_\+xth\+\_\+percentile (\begin{DoxyParamCaption}\item[{}]{players,  }\item[{}]{percentile = {\ttfamily 90} }\end{DoxyParamCaption})}
+
+\Hypertarget{namespaceapi_1_1views__player_a7b7c420d5febd44354e474d9db641c64}\label{namespaceapi_1_1views__player_a7b7c420d5febd44354e474d9db641c64} 
+\index{api.views\_player@{api.views\_player}!get\_player@{get\_player}}
+\index{get\_player@{get\_player}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{get\_player()}{get\_player()}}
+{\footnotesize\ttfamily get\+\_\+player (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Retrieves a specific player by its primary key.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the player.
+    Returns:
+        - Response: The HTTP response object containing the serialized player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_ab5226d8f1203c8c471c2b732c4e25074}\label{namespaceapi_1_1views__player_ab5226d8f1203c8c471c2b732c4e25074} 
+\index{api.views\_player@{api.views\_player}!list\_players@{list\_players}}
+\index{list\_players@{list\_players}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{list\_players()}{list\_players()}}
+{\footnotesize\ttfamily list\+\_\+players (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Retrieves all player objects.
+
+    Parameters:
+        - request: The HTTP request object.
+    Returns:
+        - Response: The HTTP response object containing the serialized player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_a91323f140c51ffb9f5ddf10c038d12c5}\label{namespaceapi_1_1views__player_a91323f140c51ffb9f5ddf10c038d12c5} 
+\index{api.views\_player@{api.views\_player}!search\_player@{search\_player}}
+\index{search\_player@{search\_player}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{search\_player()}{search\_player()}}
+{\footnotesize\ttfamily search\+\_\+player (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Searches for players by name.
+
+    Parameters:
+        - request: The HTTP request object.
+    Returns:
+        - Response: The HTTP response object containing the serialized player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_a525dbdb656de09e3b11b78e11c1436b8}\label{namespaceapi_1_1views__player_a525dbdb656de09e3b11b78e11c1436b8} 
+\index{api.views\_player@{api.views\_player}!search\_player\_by\_average\_score@{search\_player\_by\_average\_score}}
+\index{search\_player\_by\_average\_score@{search\_player\_by\_average\_score}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{search\_player\_by\_average\_score()}{search\_player\_by\_average\_score()}}
+{\footnotesize\ttfamily search\+\_\+player\+\_\+by\+\_\+average\+\_\+score (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Searches for players by average score above or equal to a given value.
+
+    Parameters:
+        - request: The HTTP request object.
+    Returns:
+        - Response: The HTTP response object containing the serialized player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_a4c2e375856e5b508af89cadf17c90cd1}\label{namespaceapi_1_1views__player_a4c2e375856e5b508af89cadf17c90cd1} 
+\index{api.views\_player@{api.views\_player}!search\_player\_by\_team@{search\_player\_by\_team}}
+\index{search\_player\_by\_team@{search\_player\_by\_team}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{search\_player\_by\_team()}{search\_player\_by\_team()}}
+{\footnotesize\ttfamily search\+\_\+player\+\_\+by\+\_\+team (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Searches for players by team.
+
+    Parameters:
+        - request: The HTTP request object.
+    Returns:
+        - Response: The HTTP response object containing the serialized player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__player_aba7c58a418867e12325489489085d55d}\label{namespaceapi_1_1views__player_aba7c58a418867e12325489489085d55d} 
+\index{api.views\_player@{api.views\_player}!update\_player@{update\_player}}
+\index{update\_player@{update\_player}!api.views\_player@{api.views\_player}}
+\doxysubsubsection{\texorpdfstring{update\_player()}{update\_player()}}
+{\footnotesize\ttfamily update\+\_\+player (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Updates an existing player in the database.
+
+    Parameters:
+        - request: The HTTP request object containing the updated player data.
+        - pk: The primary key of the player to be updated.
+    Returns:
+        - Response: The HTTP response object containing the serialized updated player data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ 

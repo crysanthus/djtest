@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['fields_0',['fields',['../classapi_1_1serializers_1_1_user_serializer_1_1_meta.html#a85ebfc83f71aa612030094eba1c73efd',1,'api.serializers.UserSerializer.Meta.fields'],['../classapi_1_1serializers_1_1_league_serializer_1_1_meta.html#aaec76377ff66cbd40a7f6254fec45b80',1,'api.serializers.LeagueSerializer.Meta.fields'],['../classapi_1_1serializers_1_1_player_serializer_1_1_meta.html#aaec76377ff66cbd40a7f6254fec45b80',1,'api.serializers.PlayerSerializer.Meta.fields'],['../classapi_1_1serializers_1_1_team_serializer_1_1_meta.html#aaec76377ff66cbd40a7f6254fec45b80',1,'api.serializers.TeamSerializer.Meta.fields'],['../classapi_1_1serializers_1_1_game_serializer_1_1_meta.html#aaec76377ff66cbd40a7f6254fec45b80',1,'api.serializers.GameSerializer.Meta.fields'],['../classapi_1_1serializers_1_1_match_serializer_1_1_meta.html#aaec76377ff66cbd40a7f6254fec45b80',1,'api.serializers.MatchSerializer.Meta.fields']]]
+];

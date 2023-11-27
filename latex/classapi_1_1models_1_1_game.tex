@@ -1,0 +1,97 @@
+\doxysection{Game Class Reference}
+\hypertarget{classapi_1_1models_1_1_game}{}\label{classapi_1_1models_1_1_game}\index{Game@{Game}}
+Inheritance diagram for Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classapi_1_1models_1_1_game}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_a40b37c981a056437fd94276341c63fe8}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_aeba0e67d98ca9f404279baa65d8c40c6}{away\+\_\+score}} = models.\+Integer\+Field()
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_aede273c517772899ff52d625fed1bf10}{away\+\_\+team}} = models.\+Foreign\+Key(\mbox{\hyperlink{classapi_1_1models_1_1_team}{Team}}, on\+\_\+delete=models.\+CASCADE, related\+\_\+name=\textquotesingle{}away\+\_\+matches\textquotesingle{})
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_ade6a701b82b93dfb7eae4e79cd3b18a6}{date}} = models.\+Date\+Field()
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_a2661f439a4a94ffdcd5e47ae1da0bb1d}{description}} = models.\+Text\+Field(max\+\_\+length=100)
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_a9df856b037949fdf697a7fe12cdf6354}{home\+\_\+score}} = models.\+Integer\+Field()
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_a4f2bea77437065d2213096ad26bc3d75}{home\+\_\+team}} = models.\+Foreign\+Key(\mbox{\hyperlink{classapi_1_1models_1_1_team}{Team}}, on\+\_\+delete=models.\+CASCADE, related\+\_\+name=\textquotesingle{}home\+\_\+matches\textquotesingle{})
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_ab74e6bf80237ddc4109968cedc58c151}{name}} = models.\+Char\+Field(max\+\_\+length=50)
+\item 
+\mbox{\hyperlink{classapi_1_1models_1_1_game_acd708fe314eb7c06889113d773ebfbda}{venue}} = models.\+Char\+Field(max\+\_\+length=50)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classapi_1_1models_1_1_game_a40b37c981a056437fd94276341c63fe8}\label{classapi_1_1models_1_1_game_a40b37c981a056437fd94276341c63fe8} 
+\index{Game@{Game}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classapi_1_1models_1_1_game_aeba0e67d98ca9f404279baa65d8c40c6}\label{classapi_1_1models_1_1_game_aeba0e67d98ca9f404279baa65d8c40c6} 
+\index{Game@{Game}!away\_score@{away\_score}}
+\index{away\_score@{away\_score}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{away\_score}{away\_score}}
+{\footnotesize\ttfamily away\+\_\+score = models.\+Integer\+Field()\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_aede273c517772899ff52d625fed1bf10}\label{classapi_1_1models_1_1_game_aede273c517772899ff52d625fed1bf10} 
+\index{Game@{Game}!away\_team@{away\_team}}
+\index{away\_team@{away\_team}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{away\_team}{away\_team}}
+{\footnotesize\ttfamily away\+\_\+team = models.\+Foreign\+Key(\mbox{\hyperlink{classapi_1_1models_1_1_team}{Team}}, on\+\_\+delete=models.\+CASCADE, related\+\_\+name=\textquotesingle{}away\+\_\+matches\textquotesingle{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_ade6a701b82b93dfb7eae4e79cd3b18a6}\label{classapi_1_1models_1_1_game_ade6a701b82b93dfb7eae4e79cd3b18a6} 
+\index{Game@{Game}!date@{date}}
+\index{date@{date}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{date}{date}}
+{\footnotesize\ttfamily date = models.\+Date\+Field()\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_a2661f439a4a94ffdcd5e47ae1da0bb1d}\label{classapi_1_1models_1_1_game_a2661f439a4a94ffdcd5e47ae1da0bb1d} 
+\index{Game@{Game}!description@{description}}
+\index{description@{description}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{description}{description}}
+{\footnotesize\ttfamily description = models.\+Text\+Field(max\+\_\+length=100)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_a9df856b037949fdf697a7fe12cdf6354}\label{classapi_1_1models_1_1_game_a9df856b037949fdf697a7fe12cdf6354} 
+\index{Game@{Game}!home\_score@{home\_score}}
+\index{home\_score@{home\_score}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{home\_score}{home\_score}}
+{\footnotesize\ttfamily home\+\_\+score = models.\+Integer\+Field()\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_a4f2bea77437065d2213096ad26bc3d75}\label{classapi_1_1models_1_1_game_a4f2bea77437065d2213096ad26bc3d75} 
+\index{Game@{Game}!home\_team@{home\_team}}
+\index{home\_team@{home\_team}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{home\_team}{home\_team}}
+{\footnotesize\ttfamily home\+\_\+team = models.\+Foreign\+Key(\mbox{\hyperlink{classapi_1_1models_1_1_team}{Team}}, on\+\_\+delete=models.\+CASCADE, related\+\_\+name=\textquotesingle{}home\+\_\+matches\textquotesingle{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_ab74e6bf80237ddc4109968cedc58c151}\label{classapi_1_1models_1_1_game_ab74e6bf80237ddc4109968cedc58c151} 
+\index{Game@{Game}!name@{name}}
+\index{name@{name}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily name = models.\+Char\+Field(max\+\_\+length=50)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classapi_1_1models_1_1_game_acd708fe314eb7c06889113d773ebfbda}\label{classapi_1_1models_1_1_game_acd708fe314eb7c06889113d773ebfbda} 
+\index{Game@{Game}!venue@{venue}}
+\index{venue@{venue}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{venue}{venue}}
+{\footnotesize\ttfamily venue = models.\+Char\+Field(max\+\_\+length=50)\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+api/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

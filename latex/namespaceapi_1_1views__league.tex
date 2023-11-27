@@ -1,0 +1,89 @@
+\doxysection{api.\+views\+\_\+league Namespace Reference}
+\hypertarget{namespaceapi_1_1views__league}{}\label{namespaceapi_1_1views__league}\index{api.views\_league@{api.views\_league}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__league_aeeb53b1d64593e7f5f78fd019e120d3b}{create\+\_\+league}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__league_ab5c72530eec6508e9cb67be5569ab59e}{delete\+\_\+league}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__league_ab7d93869615f998f75924134d8b4cf24}{get\+\_\+league}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__league_ab7b643c4ca6ff741a9cf3155da2b6e24}{list\+\_\+leagues}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__league_a66b5999f2c7c9e6f56d6a01793e32d97}{update\+\_\+league}} (request, pk)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapi_1_1views__league_aeeb53b1d64593e7f5f78fd019e120d3b}\label{namespaceapi_1_1views__league_aeeb53b1d64593e7f5f78fd019e120d3b} 
+\index{api.views\_league@{api.views\_league}!create\_league@{create\_league}}
+\index{create\_league@{create\_league}!api.views\_league@{api.views\_league}}
+\doxysubsubsection{\texorpdfstring{create\_league()}{create\_league()}}
+{\footnotesize\ttfamily create\+\_\+league (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Creates a new league.
+
+    Parameters:
+        - request: The HTTP request object containing the league data.
+
+    Returns:
+        - Response: The HTTP response object containing the serialized league data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__league_ab5c72530eec6508e9cb67be5569ab59e}\label{namespaceapi_1_1views__league_ab5c72530eec6508e9cb67be5569ab59e} 
+\index{api.views\_league@{api.views\_league}!delete\_league@{delete\_league}}
+\index{delete\_league@{delete\_league}!api.views\_league@{api.views\_league}}
+\doxysubsubsection{\texorpdfstring{delete\_league()}{delete\_league()}}
+{\footnotesize\ttfamily delete\+\_\+league (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Deletes a league.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the league to delete.
+
+    Returns:
+        - Response: The HTTP response object containing a success message.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__league_ab7d93869615f998f75924134d8b4cf24}\label{namespaceapi_1_1views__league_ab7d93869615f998f75924134d8b4cf24} 
+\index{api.views\_league@{api.views\_league}!get\_league@{get\_league}}
+\index{get\_league@{get\_league}!api.views\_league@{api.views\_league}}
+\doxysubsubsection{\texorpdfstring{get\_league()}{get\_league()}}
+{\footnotesize\ttfamily get\+\_\+league (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Get a specific league by its primary key.
+    
+    :param request: The HTTP request object.
+    :param pk: The primary key of the league.
+    :type pk: int
+    :return: A JSON response containing the serialized league data.
+    :returns type: JsonResponse\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__league_ab7b643c4ca6ff741a9cf3155da2b6e24}\label{namespaceapi_1_1views__league_ab7b643c4ca6ff741a9cf3155da2b6e24} 
+\index{api.views\_league@{api.views\_league}!list\_leagues@{list\_leagues}}
+\index{list\_leagues@{list\_leagues}!api.views\_league@{api.views\_league}}
+\doxysubsubsection{\texorpdfstring{list\_leagues()}{list\_leagues()}}
+{\footnotesize\ttfamily list\+\_\+leagues (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Lists all the leagues.
+
+    Parameters:
+    - request: The request object.
+
+    Returns:
+    A JsonResponse containing the list of leagues serialized as JSON.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__league_a66b5999f2c7c9e6f56d6a01793e32d97}\label{namespaceapi_1_1views__league_a66b5999f2c7c9e6f56d6a01793e32d97} 
+\index{api.views\_league@{api.views\_league}!update\_league@{update\_league}}
+\index{update\_league@{update\_league}!api.views\_league@{api.views\_league}}
+\doxysubsubsection{\texorpdfstring{update\_league()}{update\_league()}}
+{\footnotesize\ttfamily update\+\_\+league (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Updates a league.
+
+    Parameters:
+        - request: The HTTP request object containing the updated league data.
+        - pk: The primary key of the league to update.
+
+    Returns:
+        - Response: The HTTP response object containing the serialized league data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ 

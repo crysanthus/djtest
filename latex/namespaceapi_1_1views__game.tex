@@ -1,0 +1,88 @@
+\doxysection{api.\+views\+\_\+game Namespace Reference}
+\hypertarget{namespaceapi_1_1views__game}{}\label{namespaceapi_1_1views__game}\index{api.views\_game@{api.views\_game}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__game_ac677e8845746c6a9ac085fd5aeb26e2d}{create\+\_\+game}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__game_ac9d7eb2a5c0c483c20bf83fe7eb33405}{delete\+\_\+game}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__game_a7c5505d743399481a8b7763187184567}{get\+\_\+game}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__game_ae22bde5ef3dd0946bdcdb4b20f2c0837}{list\+\_\+games}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__game_ade93187e83c0bc6607d4a0602bebf60a}{update\+\_\+game}} (request, pk)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapi_1_1views__game_ac677e8845746c6a9ac085fd5aeb26e2d}\label{namespaceapi_1_1views__game_ac677e8845746c6a9ac085fd5aeb26e2d} 
+\index{api.views\_game@{api.views\_game}!create\_game@{create\_game}}
+\index{create\_game@{create\_game}!api.views\_game@{api.views\_game}}
+\doxysubsubsection{\texorpdfstring{create\_game()}{create\_game()}}
+{\footnotesize\ttfamily create\+\_\+game (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Creates a new game.
+
+    Parameters:
+        - request: The HTTP request object containing the game data.
+
+    Returns:
+        - Response: The HTTP response object containing the serialized game data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__game_ac9d7eb2a5c0c483c20bf83fe7eb33405}\label{namespaceapi_1_1views__game_ac9d7eb2a5c0c483c20bf83fe7eb33405} 
+\index{api.views\_game@{api.views\_game}!delete\_game@{delete\_game}}
+\index{delete\_game@{delete\_game}!api.views\_game@{api.views\_game}}
+\doxysubsubsection{\texorpdfstring{delete\_game()}{delete\_game()}}
+{\footnotesize\ttfamily delete\+\_\+game (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Deletes a specific game by its primary key.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the game.
+    Returns:
+        - Response: The HTTP response object containing a success message.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__game_a7c5505d743399481a8b7763187184567}\label{namespaceapi_1_1views__game_a7c5505d743399481a8b7763187184567} 
+\index{api.views\_game@{api.views\_game}!get\_game@{get\_game}}
+\index{get\_game@{get\_game}!api.views\_game@{api.views\_game}}
+\doxysubsubsection{\texorpdfstring{get\_game()}{get\_game()}}
+{\footnotesize\ttfamily get\+\_\+game (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Retrieves a specific game by its primary key.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the game.
+    Returns:
+        - Response: The HTTP response object containing the serialized game data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__game_ae22bde5ef3dd0946bdcdb4b20f2c0837}\label{namespaceapi_1_1views__game_ae22bde5ef3dd0946bdcdb4b20f2c0837} 
+\index{api.views\_game@{api.views\_game}!list\_games@{list\_games}}
+\index{list\_games@{list\_games}!api.views\_game@{api.views\_game}}
+\doxysubsubsection{\texorpdfstring{list\_games()}{list\_games()}}
+{\footnotesize\ttfamily list\+\_\+games (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Retrieves all game objects.
+
+    Parameters:
+        - request: The HTTP request object.
+    Returns:
+        - Response: The HTTP response object containing the serialized game data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__game_ade93187e83c0bc6607d4a0602bebf60a}\label{namespaceapi_1_1views__game_ade93187e83c0bc6607d4a0602bebf60a} 
+\index{api.views\_game@{api.views\_game}!update\_game@{update\_game}}
+\index{update\_game@{update\_game}!api.views\_game@{api.views\_game}}
+\doxysubsubsection{\texorpdfstring{update\_game()}{update\_game()}}
+{\footnotesize\ttfamily update\+\_\+game (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Updates a specific game by its primary key.
+
+    Parameters:
+        - request: The HTTP request object containing the updated game data.
+        - pk: The primary key of the game.
+    Returns:
+        - Response: The HTTP response object containing the serialized updated game data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ 

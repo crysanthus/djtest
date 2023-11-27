@@ -1,0 +1,87 @@
+\doxysection{api.\+views\+\_\+match Namespace Reference}
+\hypertarget{namespaceapi_1_1views__match}{}\label{namespaceapi_1_1views__match}\index{api.views\_match@{api.views\_match}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__match_a1cfd2d0d0d287c41b942958fb1996de0}{create\+\_\+match}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__match_ababcc6f21a97c8110904ad2c50a8d4ca}{delete\+\_\+match}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__match_ad23d3a0d4ef38ae918d28633f327ec1f}{get\+\_\+match}} (request, pk)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__match_a3ba2a16fc450689c8c580ce80d7fce80}{list\+\_\+matches}} (request)
+\item 
+\mbox{\hyperlink{namespaceapi_1_1views__match_aa5cc717755d1c0c47c01a6163462c36e}{update\+\_\+match}} (request, pk)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapi_1_1views__match_a1cfd2d0d0d287c41b942958fb1996de0}\label{namespaceapi_1_1views__match_a1cfd2d0d0d287c41b942958fb1996de0} 
+\index{api.views\_match@{api.views\_match}!create\_match@{create\_match}}
+\index{create\_match@{create\_match}!api.views\_match@{api.views\_match}}
+\doxysubsubsection{\texorpdfstring{create\_match()}{create\_match()}}
+{\footnotesize\ttfamily create\+\_\+match (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Creates a new match.
+
+    Parameters:
+        - request: The HTTP request object containing the match data.
+
+    Returns:
+        - Response: The HTTP response object containing the serialized match data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__match_ababcc6f21a97c8110904ad2c50a8d4ca}\label{namespaceapi_1_1views__match_ababcc6f21a97c8110904ad2c50a8d4ca} 
+\index{api.views\_match@{api.views\_match}!delete\_match@{delete\_match}}
+\index{delete\_match@{delete\_match}!api.views\_match@{api.views\_match}}
+\doxysubsubsection{\texorpdfstring{delete\_match()}{delete\_match()}}
+{\footnotesize\ttfamily delete\+\_\+match (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Deletes a specific match by its primary key.
+
+    Parameters:
+        - request: The HTTP request object.
+        - pk: The primary key of the match.
+    Returns:
+        - Response: The HTTP response object containing a success message.
+        - status: The HTTP status code.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__match_ad23d3a0d4ef38ae918d28633f327ec1f}\label{namespaceapi_1_1views__match_ad23d3a0d4ef38ae918d28633f327ec1f} 
+\index{api.views\_match@{api.views\_match}!get\_match@{get\_match}}
+\index{get\_match@{get\_match}!api.views\_match@{api.views\_match}}
+\doxysubsubsection{\texorpdfstring{get\_match()}{get\_match()}}
+{\footnotesize\ttfamily get\+\_\+match (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Get a specific match by its primary key.
+    
+    :param request: The HTTP request object.
+    :param pk: The primary key of the match.
+    :type pk: int
+    :return: A JSON response containing the serialized match data.
+    :returns type: JsonResponse\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__match_a3ba2a16fc450689c8c580ce80d7fce80}\label{namespaceapi_1_1views__match_a3ba2a16fc450689c8c580ce80d7fce80} 
+\index{api.views\_match@{api.views\_match}!list\_matches@{list\_matches}}
+\index{list\_matches@{list\_matches}!api.views\_match@{api.views\_match}}
+\doxysubsubsection{\texorpdfstring{list\_matches()}{list\_matches()}}
+{\footnotesize\ttfamily list\+\_\+matches (\begin{DoxyParamCaption}\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Lists all the matches.
+
+    Parameters:
+    - request: The request object.
+
+    Returns:
+    A JsonResponse containing the list of matches serialized as JSON.\end{DoxyVerb}
+ \Hypertarget{namespaceapi_1_1views__match_aa5cc717755d1c0c47c01a6163462c36e}\label{namespaceapi_1_1views__match_aa5cc717755d1c0c47c01a6163462c36e} 
+\index{api.views\_match@{api.views\_match}!update\_match@{update\_match}}
+\index{update\_match@{update\_match}!api.views\_match@{api.views\_match}}
+\doxysubsubsection{\texorpdfstring{update\_match()}{update\_match()}}
+{\footnotesize\ttfamily update\+\_\+match (\begin{DoxyParamCaption}\item[{}]{request,  }\item[{}]{pk }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Updates a specific match by its primary key.
+
+    Parameters:
+        - request: The HTTP request object containing the updated match data.
+        - pk: The primary key of the match.
+    Returns:
+        - Response: The HTTP response object containing the serialized updated match data.
+        - status: The HTTP status code.\end{DoxyVerb}
+ 
